@@ -1,0 +1,21 @@
+h1{
+    font-size: 50px;
+}
+ 
+body{
+    font-family: 'Pushster', cursive;
+}
+
+.name-highlight{
+    color: orange;
+}
+.perfect-width {
+    width: 40%;
+    float: left;
+    padding: left 5%;
+    margin-left: 5%;
+}
+
+.perfect-width img{
+    width: 100%;
+}
