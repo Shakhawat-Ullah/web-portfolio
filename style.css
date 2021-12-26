@@ -4,14 +4,15 @@ h1{
  
 body{
     font-family: 'Pushster', cursive;
-    margin:0 ;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 .perfect-width {
-    width: 40%;
+    width: 43%;
     float: left;
     padding left: 2%;
     margin-left: 5%;
@@ -41,4 +42,32 @@ section{
      background-image: url(images/dream-bg.png);
      background-repeat: no-repeat;
      background-position: right;
+}
+.single-experince{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    text-align: left;
+    height: 60%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+#full-stack{
+    border-left: 3px solid;
+    border-image: linear-gradient(180deg,tomato, orange);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 3px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+    font-weight: 700;
+    
 }
